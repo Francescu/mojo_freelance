@@ -1,0 +1,33 @@
+{
+  "name": "mojo_freelance",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon dist/server.js",
+    "test": "jest",
+    "build": "tsc",
+    "watch-typescript": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/axelvaindal/mojo_freelance.git"
+  },
+  "author": "Axel VAINDAL <pro.axelvaindal@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axelvaindal/mojo_freelance/issues"
+  },
+  "homepage": "https://github.com/axelvaindal/mojo_freelance#readme",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.4",
+    "@types/jest": "25.1.4",
+    "@types/node": "13.9.8",
+    "jest": "25.2.6",
+    "nodemon": "2.0.2",
+    "typescript": "3.8.3"
+  }
+}

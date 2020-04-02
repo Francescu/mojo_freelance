@@ -1,0 +1,5 @@
+{
+  "clearMocks": true,
+  "coverageDirectory": true,
+  "testEnvironment": "node"
+}
