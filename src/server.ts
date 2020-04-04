@@ -1,7 +1,16 @@
-import app from ".";
+import type { Request, Response } from "express";
 
-const port = process.env.PORT || 3000;
+import express from "express";
 
-const onListen = () => console.info(`Now listening on port ${port}.`);
+import getSkills from "./freelancers/get-skills";
 
-app.listen(port, onListen);
+const server = express();
+
+const notFound = (req: Request, res: Response) => {
+  res.status(404).json({});
+};
+
+server.get("/freelancer/:id/skills", getSkills);
+server.use(notFound);
+
+export default server;

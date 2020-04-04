@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Freelancer API GET /freelancer/:id/skills Expect to return valid skill experience duration on success 1`] = `
+Object {
+  "freelance": Object {
+    "computedSkills": Array [
+      Object {
+        "durationInMonths": 28,
+        "id": 241,
+        "name": "React",
+      },
+      Object {
+        "durationInMonths": 28,
+        "id": 270,
+        "name": "Node.js",
+      },
+      Object {
+        "durationInMonths": 60,
+        "id": 370,
+        "name": "Javascript",
+      },
+      Object {
+        "durationInMonths": 32,
+        "id": 470,
+        "name": "MySQL",
+      },
+      Object {
+        "durationInMonths": 40,
+        "id": 400,
+        "name": "Java",
+      },
+    ],
+    "id": 42,
+  },
+}
+`;

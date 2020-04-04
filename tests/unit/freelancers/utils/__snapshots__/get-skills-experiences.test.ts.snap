@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getSkillsExperiences It should return skills experiences 1`] = `
+Object {
+  "Java": Object {
+    "dates": Array [
+      Object {
+        "endDate": "2016-08-31T23:00:00.000Z",
+        "startDate": "2013-12-31T23:00:00.000Z",
+      },
+      Object {
+        "endDate": "2014-06-30T23:00:00.000Z",
+        "startDate": "2013-04-30T23:00:00.000Z",
+      },
+    ],
+    "id": 400,
+  },
+  "Javascript": Object {
+    "dates": Array [
+      Object {
+        "endDate": "2018-04-30T23:00:00.000Z",
+        "startDate": "2015-12-31T23:00:00.000Z",
+      },
+      Object {
+        "endDate": "2016-08-31T23:00:00.000Z",
+        "startDate": "2013-12-31T23:00:00.000Z",
+      },
+      Object {
+        "endDate": "2014-06-30T23:00:00.000Z",
+        "startDate": "2013-04-30T23:00:00.000Z",
+      },
+    ],
+    "id": 370,
+  },
+  "MySQL": Object {
+    "dates": Array [
+      Object {
+        "endDate": "2016-08-31T23:00:00.000Z",
+        "startDate": "2013-12-31T23:00:00.000Z",
+      },
+    ],
+    "id": 470,
+  },
+  "Node.js": Object {
+    "dates": Array [
+      Object {
+        "endDate": "2018-04-30T23:00:00.000Z",
+        "startDate": "2015-12-31T23:00:00.000Z",
+      },
+    ],
+    "id": 270,
+  },
+  "React": Object {
+    "dates": Array [
+      Object {
+        "endDate": "2018-04-30T23:00:00.000Z",
+        "startDate": "2015-12-31T23:00:00.000Z",
+      },
+    ],
+    "id": 241,
+  },
+}
+`;
