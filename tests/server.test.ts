@@ -13,7 +13,7 @@ describe("Test Freelancer API", () => {
 
   describe("GET /freelancer/:id/skills", () => {
     test("Expect to fail if id is invalid", async () => {
-      const result = await request(server).get("/freelancer/1/skills");
+      const result = await request(server).get("/freelancer/invalidID/skills");
       expect(result.text).toEqual("Server error.");
       expect(result.statusCode).toEqual(500);
     });
