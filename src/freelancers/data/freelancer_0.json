@@ -1,0 +1,27 @@
+{
+    "freelance": {
+      "id": 0,
+      "user": {
+        "firstName": "Toto",
+        "lastName": "Vahomarche",
+        "jobTitle": "Typescript Lover"
+      },
+      "status": "new",
+      "retribution": 500,
+      "availabilityDate": "2020-01-01T00:00:00+01:00",
+      "professionalExperiences": [
+        {
+          "id": 218,
+          "companyName": "Itawachi Olissey",
+          "startDate": "2018-01-01T00:00:00+01:00",
+          "endDate": "2020-01-01T00:00:00+01:00",
+          "skills": [
+            {
+              "id": 42,
+              "name": "Typescript"
+            }
+          ]
+        }
+      ]
+    }
+  }

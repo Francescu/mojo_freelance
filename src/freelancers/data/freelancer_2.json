@@ -1,0 +1,47 @@
+{
+  "freelance": {
+    "id": 2,
+    "user": {
+      "firstName": "Anakin",
+      "lastName": "Skywalker",
+      "jobTitle": "Wannabe Jedi"
+    },
+    "status": "new",
+    "retribution": 600,
+    "availabilityDate": "2018-06-13T00:00:00+01:00",
+    "professionalExperiences": [
+      {
+        "id": 218,
+        "companyName": "Itawachi Olissey",
+        "startDate": "2018-01-01T00:00:00+01:00",
+        "endDate": "2019-01-01T00:00:00+01:00",
+        "skills": [
+          {
+            "id": 42,
+            "name": "Typescript"
+          }
+        ]
+      },
+      {
+        "id": 118,
+        "companyName": "Yadup Oule Inc.",
+        "startDate": "2018-03-01T00:00:00+01:00",
+        "endDate": "2020-01-01T00:00:00+01:00",
+        "skills": [
+          {
+            "id": 471,
+            "name": "PostgreSQL"
+          },
+          {
+            "id": 42,
+            "name": "Typescript"
+          },
+          {
+            "id": 370,
+            "name": "Javascript"
+          }
+        ]
+      }
+    ]
+  }
+}
